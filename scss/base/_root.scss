@@ -1,0 +1,33 @@
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-green: hsl(157, 74%, 62%);
+  --clr-blue: hsl(225, 26%, 23%);
+  --clr-dark-blue: hsl(224, 35%, 11%);
+  --clr-light-blue: hsl(225, 21%, 45%);
+  --clr-lighter-blue: hsl(225, 40%, 83%);
+
+  --ff-primary: "Chivo", sans-serif;
+
+  --fs-heading: 1.625rem;
+  --fs-text: 0.9375rem;
+  --fs-form: 0.875rem;
+
+  --lh-heading: 1.46em;
+  --lh-text: 1.67em;
+  --lh-form: 2em;
+
+  --logo-width: 8.375rem;
+  --log-height: 3.5rem;
+
+  @media (min-width: 48em) {
+    --fs-heading: 3rem;
+    --fs-text: 1.125rem;
+
+    --lh-heading: 1.16em;
+    --lh-text: 1.5em;
+  }
+
+  @media (min-width: 90em) {
+    --fs-heading: 3.25rem;
+  }
+}
