@@ -106,6 +106,10 @@ body {
     border-radius: 1.75rem;
 
     color: var(--clr-dark-blue);
+
+    &:hover {
+      background-color: var(--clr-light-green);
+    }
   }
 
   .text-error {
