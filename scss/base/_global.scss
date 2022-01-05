@@ -107,6 +107,16 @@ body {
 
     color: var(--clr-dark-blue);
   }
+
+  .text-error {
+    display: none;
+
+    color: var(--clr-red);
+    font-size: var(--fs-form);
+    line-height: var(--lh-form);
+
+    margin-top: 1rem;
+  }
 }
 
 @media (min-width: 48em) {
@@ -168,8 +178,7 @@ body {
     .request-access {
       position: absolute;
       right: 0;
-      top: 50%;
-      transform: translateY(-50%);
+      top: 0.2rem;
       margin: auto;
       width: unset;
       padding: 0.7rem 2rem;
